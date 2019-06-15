@@ -1,0 +1,51 @@
+CURSO COMLETO GIT
+https://www.youtube.com/watch?v=x3ybMcIOjp0&list=PLvimn1Ins-43-1sXQmGZPWLjNjPyGNi0R&index=2
+Instalacion
+https://openwebinars.net/blog/como-instalar-git-en-ubuntu/
+git --version
+
+--------------------------------------------------------------
+Sofware controlador de versiones (git)
+
+VENTAJAS
+Auditoria de codigo
+	Revision de que hizo cada quien
+Control de cambios
+	Volver a versiones anteriores
+Uso de etiquetas para vercionar
+	Determina las versiones a las que se desea volver
+
+git
+	Sistema de control de versiones
+git hub, Bitbuket, Gitlab
+	Red social que utiliza git para que podamos administrar nuestros projectos
+--------------------------------------------------------------
+
+
+
+COMANDOS EXTRA
+git --version
+---------------------------------------------------------------
+Video 3 - Primer Repositorio y Commit
+DATOS PERSONALES
+git config --global user.email 'amilcar@gmail.com'
+git config --global user.name 'Amilcar'
+
+VER DATOS PERSONALES CONFIGURADOS
+git config --global -l
+
+Para editar los datos anteriores solo ingresamos los mismos comandos de nuevo
+
+COMADOS BASICOS
+git init
+fit add .
+git status
+git commit -m "Commit inicial"
+-m ---> para indicarle un mensaje descriptivo
+git diff --> Verificamos los cambios
+git checkout . --> Reverir los cambios
+git log --> Verlos commits
+-------------------------------------------------------------
+Proyecto = repositorio
+Commit = Confirmacion de algo que estuvo en el Stage y que ahora esta en un hito en el 
+	tiempo
